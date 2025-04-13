@@ -120,6 +120,11 @@ h1, h2 {
   overflow: hidden;
   color: var(--main-white);
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.03);
 }
 
 .project-image {
